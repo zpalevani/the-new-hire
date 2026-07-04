@@ -7,7 +7,7 @@ This is a self-paced workshop for **operations people**, customer success, suppo
 
 You're going to do the one thing you already do better than any engineer: **onboard a new team member.**
 
-Except this new hire is an AI agent. And by the end of five modules, it will be running **support escalation triage** for you — with an SOP it actually follows, an approval matrix it can't bypass, and a QA scorecard that proves it.
+Except this new hire is an AI agent. And by the end of five modules, it will be running **support escalation triage** for you with an SOP it actually follows, an approval matrix it can't bypass, and a QA scorecard that proves it. Consider this your Proof of Concept (POC) to start the conversations with your team to proceed with an MVP and evntually production version. 
 
 ---
 
