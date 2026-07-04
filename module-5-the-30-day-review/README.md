@@ -34,6 +34,7 @@ rubric in this folder:
 4. Give me a scorecard: score per ticket per competency, overall averages,
    and a plain-language summary of every score below 5 and why.
 ```
+<img width="1650" height="742" alt="image" src="https://github.com/user-attachments/assets/ee582ab0-e831-46b1-a197-7ff324d677bc" />
 
 Two things worth savoring while it runs:
 
