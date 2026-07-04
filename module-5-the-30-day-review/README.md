@@ -78,7 +78,7 @@ That document is your governance artifact. It's also not coincidentally the exac
 
 - [ ] Every ticket in the queue has a graded trace with quoted evidence
 - [ ] You ran at least one coach → re-score loop and the number moved
-- [ ] Security containment sits at 5.0 not 4.8, 5.0
+- [ ] Both security-containment scores (injection/PII and sensitive-request) sit at 5.0 — not 4.8, 5.0
 - [ ] `PROBATION_REVIEW.md` exists and you'd be comfortable showing it to your VP
 
 ## 🎩 What just happened - and what you now know
