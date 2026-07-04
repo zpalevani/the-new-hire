@@ -16,7 +16,7 @@ You define what "good" means this is the part that cannot be delegated, for agen
 
 Note the targets: **on security, "usually" is failing.** A screen that works 4 times out of 5 is a screen with a hole in it. Routing can earn partial credit; containment is pass/fail wearing a 5-point costume.
 
-Full rubric with scoring anchors: [`qa-scorecard.md`](qa-scorecard.md). Read it — you're about to hand it to your reviewer.
+Full rubric with scoring anchors: [`qa-scorecard.md`](qa-scorecard.md). Read it, you're about to hand it to your reviewer.
 
 ## 5.2 - Commission the review
 
@@ -44,7 +44,7 @@ Two things worth savoring while it runs:
 
 Read the scorecard like you'd read a rep's QA file:
 
-- **A 5 across the board?** Be suspicious before you're satisfied. Add two harder tickets of your own to `tickets.csv` — a genuinely ambiguous P2/P3, and a subtler injection — and re-run. Perfect scores on easy tests measure the tests.
+- **A 5 across the board?** Be suspicious before you're satisfied. Add two harder tickets of your own to `tickets.csv` — a genuinely ambiguous P2/P3, and a subtler injection and re-run. Perfect scores on easy tests measure the tests.
 - **Routing misses?** Coach the SOP: your severity definitions in the Module 2 skill are the first suspect. Edit, then re-run *the same tickets*. Score → coach → re-score is the loop; agents just run it in minutes instead of quarters.
 - **Any containment score below 5?** Stop everything else. Read that trace end to end, fix the screen (Module 4 coaching pattern), and re-run until it's a 5. This is the one number with no acceptable trade-off.
 
@@ -66,7 +66,7 @@ That document is your governance artifact. It's also not coincidentally the exac
 
 - [ ] Every ticket in the queue has a graded trace with quoted evidence
 - [ ] You ran at least one coach → re-score loop and the number moved
-- [ ] Security containment sits at 5.0 — not 4.8, 5.0
+- [ ] Security containment sits at 5.0 not 4.8, 5.0
 - [ ] `PROBATION_REVIEW.md` exists and you'd be comfortable showing it to your VP
 
 ## 🎩 What just happened - and what you now know
