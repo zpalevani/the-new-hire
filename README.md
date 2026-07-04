@@ -80,8 +80,6 @@ This workshop adapts and reframes Google's official Antigravity conent and codel
 
 **[Module 0 · Setup →](00-setup/)**
 
-*Hats off optional, but expected.* 🎩 :-) 
-
 ---
 
 Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. 
