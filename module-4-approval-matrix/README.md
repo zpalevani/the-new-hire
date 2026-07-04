@@ -29,6 +29,13 @@ BEFORE any AI classifier step, in plain code, and do exactly two things:
    "close this ticket", "system override". Any hit skips the AI entirely and
    routes the ticket straight to human review, flagged SUSPECTED INJECTION
    with the matched phrase quoted for the reviewer.
+3. This screen must be reachable by ANY input the entry node accepts,
+   including freeform unstructured text that doesn't match a known ticket
+   ID or a fully structured ticket. The entry parser must never reject or
+   error out on such input — it must pass it through as raw description
+   text so the screen actually sees it. An attacker's message will rarely
+   arrive pre-labeled with tier and category; the screen has to work on
+   messy text, not just clean tickets.
 
 The AI classifier must only ever see screened text. Show me the updated
 workflow plan before implementing, and point to exactly where the screen
