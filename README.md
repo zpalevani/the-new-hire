@@ -67,7 +67,11 @@ The [sample ticket queue](sample-data/tickets.csv) contains a few traps a custom
 2. **Never approve what you haven't read.** Your agent produces plans and artifacts before acting. Read them. Approving blind is how bad hires slip through probation, same rule here.
 3. **If the agent stalls, prompt it forward.** Agents sometimes present a plan and wait. Reply "Proceed." You'd nudge a hesitant new hire too.
 4. **Results vary and that's normal.** Agents are not photocopiers. Your file names and outputs may differ slightly from the screenshots. Judge outcomes, not keystrokes. (You'll formalize this instinct in Module 5.)
-
+5. **A note on scope.** This workshop teaches the *pattern* of building guardrails — deterministic rules, security screens, human approval
+gates — using a simplified sample SOP and a handful of test tickets. It is not a certified security curriculum, and the sample defenses you
+build will not catch every attack a creative person could try. That's not a flaw to patch away once and forget; it's the nature of any
+rule-based defense. The real skill this workshop builds is the habit of **finding the gap, naming it precisely, and closing it** — which is
+exactly what you'll be doing for as long as you run this desk.
 ---
 
 ## 🙏 Grounded in
