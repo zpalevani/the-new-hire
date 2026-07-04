@@ -53,12 +53,12 @@ Open **Settings** and find the agent permission / review controls. You'll see a 
 Give it something useful:
 
 ```
-Read the file tickets.csv I'm about to add to this project. Create a one-page
-markdown briefing: how many tickets, what categories you see, which three look
-most urgent and why. Do not change the file.
+There's a file called tickets.csv in this project folder. Read it and create
+a one-page markdown briefing: how many tickets, what categories you see,
+which three look most urgent and why. Do not change the file.
 ```
 
-Download [`tickets.csv`](../sample-data/tickets.csv) from this repo into your `triage-desk` folder first. Then approve the agent's plan and read its briefing. You can also use your own data or ask any LLM to create demo data with whatever context you prefer. 
+Download [`tickets.csv`](../sample-data/tickets.csv) from this repo into your `triage-desk` project folder first. Then approve the agent's plan and read its briefing. You can also use your own data or ask any LLM to create demo data with whatever context you prefer. 
 
 > ⚠️ **Did it flag anything odd in the data?** There are traps in that queue. If your agent noticed something suspicious in tickets T-1004 or T-1007, congratulations - but *noticing* isn't a safety system. In Module 4 you'll build the actual defenses.
 
