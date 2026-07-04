@@ -3,7 +3,7 @@
 
 This is the module where people who "don't code" build by managing, not typing. You'll direct your agent to construct a real, running triage workflow, and you'll make the single most important design decision in applied AI along the way.
 
-## 3.0 — The design decision first
+## 3.0 - The design decision first
 
 Here's the principle, and it should feel like coming home:
 
@@ -78,7 +78,7 @@ implementation plan before you write anything.
 
 Then approve and let it build. It will create files, wire the workflow graph, and install dependencies narrating as it goes.
 
-## 3.3 — Housekeeping check
+## 3.3 - Housekeeping check
 
 ```
 Run linting on the project and fix anything it flags. Summarize what you checked in two sentences.
@@ -86,7 +86,7 @@ Run linting on the project and fix anything it flags. Summarize what you checked
 
 Linting is an automated tidiness inspection - formatting, broken references, sloppy imports. Think of it as the 5S audit for code: cheap to run, embarrassing to skip.
 
-## 3.4 — Sit with your new hire: the playground
+## 3.4 - Sit with your new hire: the playground
 
 ```
 Launch the local development playground so I can chat with the triage agent in my browser. Give me the link to click.
