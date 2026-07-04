@@ -33,9 +33,33 @@ Click **Publish / Deploy**, follow the prompts, wait a couple of minutes, and op
 
 > 💰 **Cleanup:** click **Unpublish app** when you're done showing off. Free tier or not, tidy ops is tidy ops.
 
-## What's honest about this
+## 🚀 Taking this to the next level
 
-This dashboard shows *sample* data, wiring it live to your Module 3 agent is real integration work (cloud hosting for the agent, an event pipeline, authenticated calls). Google's codelabs cover exactly that road: [deploying an ADK agent to Agent Runtime](https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud) and [connecting a frontend to it](https://codelabs.developers.google.com/vibecode-frontend-with-antigravity). Both need a billing-enabled cloud project and more patience with infrastructure, file under *when your team outgrows localhost.* The skills you built in Modules 1–5 are the hard part; that's plumbing.
+Quick reality check: the dashboard you just published shows **sample tickets**. It is
+not yet connected to the triage agent you built in Module 3. Right now your agent
+lives only on your own computer, it stops working when you close your laptop, and
+nothing on the internet can reach it. The dashboard, meanwhile, lives on Google's
+cloud. Two different places, no wire between them. Clicking Approve here moves a
+card on the screen; it doesn't approve a real ticket.
+
+Connecting them is the next level, and it takes three steps:
+
+1. **Move your agent to the cloud** so it runs 24/7 instead of only when your
+   laptop is open — [this codelab](https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud) walks through it.
+2. **Feed it real tickets automatically**, so new escalations flow in on their own
+   instead of you pasting them into a chat window.
+3. **Wire the dashboard to the agent securely**, so the Approve button triggers a
+   real decision and only *your* dashboard can talk to *your* agent —
+   [this codelab](https://codelabs.developers.google.com/vibecode-frontend-with-antigravity) covers it.
+
+Two things to know before you start: this road requires a **paid Google Cloud
+account** (the free-tier promise ends here), and it's more technical than anything
+in Modules 1–5. You can absolutely do it yourself with patience or hand these two
+codelabs to an engineer and manage the work the way you managed your agent.
+
+Either way, don't undersell what you're holding. The process design, the guardrails,
+the approval matrix, the QA scorecard (the parts that required judgment) are done,
+and they're yours. What's left is plumbing.
 
 ## 🏁 The end
 
