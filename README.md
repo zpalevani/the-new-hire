@@ -27,7 +27,7 @@ This workshop doesn't teach you a new discipline. It shows you that AI agents ru
 | Manage access & permissions | **Guardrails / permission modes** |
 | Demand an audit trail | **Artifacts** |
 | Keep a source-of-truth binder | **Grounding (MCP)** |
-B
+
 *(Full translation table in [GLOSSARY.md](GLOSSARY.md) ookmark it, it's your Rosetta Stone.)*
 
 ---
