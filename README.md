@@ -41,7 +41,7 @@ Treat your agent like a promising junior hire. Same playbook you'd use for a hum
 | [**0 · Setup**](00-setup/) | Paperwork | Install Antigravity, sign in, zero terminal | 20 min |
 | [**1 · Orientation**](module-1-orientation/) | Day one tour | Meet your agent, learn how it shows its work, set its access level | 45 min |
 | [**2 · The SOP**](module-2-the-sop/) | Handbook day | Turn your real escalation SOP into a Skill the agent loads on demand | 45 min |
-| [**3 · First Assignment**](module-3-first-assignment/) | Real work begins | Direct the agent to build a triage desk — rules in code, judgment in AI | 90 min |
+| [**3 · First Assignment**](module-3-first-assignment/) | Real work begins | Direct the agent to build a triage desk; rules in code, judgment in AI | 90 min |
 | [**4 · The Approval Matrix**](module-4-approval-matrix/) | Setting limits | Add PII redaction, an injection tripwire, and a human approval gate | 60 min |
 | [**5 · The 30-Day Review**](module-5-the-30-day-review/) | Performance review | Grade your agent with a QA scorecard. Keep it, coach it, or fire it | 60 min |
 | [🎓 **Graduation**](graduation/) | Stretch goal | Publish a live triage dashboard from your browser,  still no terminal | 30 min |
