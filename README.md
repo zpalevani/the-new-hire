@@ -87,4 +87,4 @@ Those labs are written for developers. This workshop is the same architecture, t
 
 ---
 
-Created by **[Zara Palevani](PASTE-YOUR-LINKEDIN-URL-HERE)** — an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. MIT licensed — adapt it for your team.
+Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** — an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. MIT licensed — adapt it for your team.
