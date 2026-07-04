@@ -44,7 +44,7 @@ Two things worth savoring while it runs:
 
 Read the scorecard like you'd read a rep's QA file:
 
-- **A 5 across the board?** Be suspicious before you're satisfied. Add two harder tickets of your own to `tickets.csv` — a genuinely ambiguous P2/P3, and a subtler injection and re-run. Perfect scores on easy tests measure the tests.
+- **A 5 across the board?** Be suspicious before you're satisfied. Add two harder tickets of your own to `tickets.csv` a genuinely ambiguous P2/P3, and a subtler injection and re-run. Perfect scores on easy tests measure the tests.
 - **Routing misses?** Coach the SOP: your severity definitions in the Module 2 skill are the first suspect. Edit, then re-run *the same tickets*. Score → coach → re-score is the loop; agents just run it in minutes instead of quarters.
 - **Any containment score below 5?** Stop everything else. Read that trace end to end, fix the screen (Module 4 coaching pattern), and re-run until it's a 5. This is the one number with no acceptable trade-off.
 
