@@ -15,7 +15,7 @@ Except this new hire is an AI agent. And by the end of five modules, it will be 
 
 Everyone tells ops people to "learn prompting." That's backwards.
 
-**Prompting is not the skill. Guardrails, context, and validation are the skill.** And ops people have been doing guardrails, context, and validation their entire careers — they just call them *approval matrices, SOPs, and QA reviews.*
+**Prompting is not the skill. Guardrails, context, and validation are the skill.** And ops people have been doing guardrails, context, and validation their entire careers, they just call them *approval matrices, SOPs, and QA reviews.*
 
 This workshop doesn't teach you a new discipline. It shows you that AI agents run on **your** discipline.
 
@@ -27,8 +27,8 @@ This workshop doesn't teach you a new discipline. It shows you that AI agents ru
 | Manage access & permissions | **Guardrails / permission modes** |
 | Demand an audit trail | **Artifacts** |
 | Keep a source-of-truth binder | **Grounding (MCP)** |
-
-*(Full translation table in [GLOSSARY.md](GLOSSARY.md) — bookmark it, it's your Rosetta Stone.)*
+B
+*(Full translation table in [GLOSSARY.md](GLOSSARY.md) ookmark it, it's your Rosetta Stone.)*
 
 ---
 
@@ -44,9 +44,9 @@ Treat your agent like a promising junior hire. Same playbook you'd use for a hum
 | [**3 · First Assignment**](module-3-first-assignment/) | Real work begins | Direct the agent to build a triage desk — rules in code, judgment in AI | 90 min |
 | [**4 · The Approval Matrix**](module-4-approval-matrix/) | Setting limits | Add PII redaction, an injection tripwire, and a human approval gate | 60 min |
 | [**5 · The 30-Day Review**](module-5-the-30-day-review/) | Performance review | Grade your agent with a QA scorecard. Keep it, coach it, or fire it | 60 min |
-| [🎓 **Graduation**](graduation/) | Stretch goal | Publish a live triage dashboard from your browser — still no terminal | 30 min |
+| [🎓 **Graduation**](graduation/) | Stretch goal | Publish a live triage dashboard from your browser,  still no terminal | 30 min |
 
-**Total: ~5 hours, self-paced.** Do a module per lunch break. Everything runs on a free personal Google account — no billing, no credit card, until the optional graduation stretch.
+**Total: ~5 hours, self-paced.** Do a module per lunch break. Everything runs on a free personal Google account; no billing, no credit card, until the optional graduation stretch.
 
 ---
 
@@ -54,7 +54,7 @@ Treat your agent like a promising junior hire. Same playbook you'd use for a hum
 
 Your support queue is drowning. Routine tickets bury the real emergencies. So you're onboarding an agent to run **escalation triage**:
 
-- 🟢 **Routine tickets** (password resets, billing questions) → auto-routed instantly by *rules, not AI*. Policy is policy — it shouldn't cost an AI call, and it shouldn't be up for negotiation.
+- 🟢 **Routine tickets** (password resets, billing questions) → auto-routed instantly by *rules, not AI*. Policy is policy, it shouldn't cost an AI call, and it shouldn't be up for negotiation.
 - 🔴 **High-stakes tickets** (enterprise outages, churn threats) → screened for sensitive data, risk-summarized by AI, then **paused for a human decision.** Yours.
 
 The [sample ticket queue](sample-data/tickets.csv) contains a few traps — a customer who pastes their SSN, a "ticket" that tries to talk your agent into misbehaving, and a VIP threatening to walk. Your onboarding plan handles all three. That's the point.
@@ -64,7 +64,7 @@ The [sample ticket queue](sample-data/tickets.csv) contains a few traps — a cu
 ## 📏 Ground rules
 
 1. **You are the manager, not the typist.** Every module gives you plain-English prompts to copy into Antigravity. The agent writes the code, runs the commands, opens the web pages. You review, approve, and decide.
-2. **Never approve what you haven't read.** Your agent produces plans and artifacts before acting. Read them. Approving blind is how bad hires slip through probation — same rule here.
+2. **Never approve what you haven't read.** Your agent produces plans and artifacts before acting. Read them. Approving blind is how bad hires slip through probation, same rule here.
 3. **If the agent stalls, prompt it forward.** Agents sometimes present a plan and wait. Reply "Proceed." You'd nudge a hesitant new hire too.
 4. **Results vary — that's normal.** Agents are not photocopiers. Your file names and outputs may differ slightly from the screenshots. Judge outcomes, not keystrokes. (You'll formalize this instinct in Module 5.)
 
