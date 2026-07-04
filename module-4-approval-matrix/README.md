@@ -69,6 +69,30 @@ Congratulations, you are now doing security testing. Nobody mentioned it would f
 > *"Freeform text that isn't a known ticket ID and doesn't match the full structured format should still be passed to security_screen as raw
 > description text — never rejected outright. Rejecting isn't a valid outcome; everything must route through the screen or fail closed to
 > human review."* Restart the server and test in a new session afterward.
+>
+> > 🩹 **If a ticket requests sensitive information — a named person's
+> salary, home address, internal contact info, credentials — and it gets
+> auto-drafted instead of flagged:** this is a different failure than
+> prompt injection. There's no instruction-to-system language to catch;
+> it's a plain-language social-engineering request, and **severity and
+> sensitivity are not the same axis.** A P3 or P4 ticket (low urgency) can
+> still carry a high-risk request. If your workflow only routes to human
+> review based on severity, a sensitive request hiding in a routine-looking
+> ticket will sail through untouched — auto-drafted, unseen, no human in
+> the loop. The fix: add sensitive-data-request as its own detection category,
+> separate from injection, and make ANY match force human_approval
+> regardless of what severity the classifier assigned. Then test with
+> several different phrasings, not just one — a single fixed phrase is a
+> patch, not a category.⚠️ **Be honest with yourself about scope.** This module teaches the
+> *pattern*: certain categories of request must never auto-proceed,
+> no matter how low-risk they look on the surface. It does not hand you
+> a production-grade content-safety system. A determined, creative
+> attacker will always find a new phrasing your rules didn't anticipate 
+> that's true of every rule-based or pattern-based defense, in software
+> and in human policy alike. Treat what you build here as a **first line
+> of defense you keep expanding**, not a finished wall. If you take this
+> pattern into a real workplace tool, budget for ongoing red-teaming, not
+> a one-time build.
 
 ## 4.4 - Tighten the approval gate
 
