@@ -7,8 +7,8 @@ Your triage desk works. Now make it safe to leave alone because two of the ticke
 
 Open [`tickets.csv`](../sample-data/tickets.csv) and read these like an ops leader, not a technician:
 
-- **T-1004** contains text pretending to be a system instruction: it tells whoever reads it to reclassify the ticket as low priority and close it. If an AI reads that text as *instructions* rather than *content*, the attacker just skipped your queue. This is **prompt injection**, and it is nothing more than social engineering aimed at your agent — the "hi, IT sent me, what's your password?" of the AI era.
-- **T-1007** contains a customer's SSN, pasted in frustration. No attack — just a human being messy. But if that text flows into an AI model unfiltered, sensitive data has now been *processed* somewhere your compliance team never approved.
+- **T-1004** contains text pretending to be a system instruction: it tells whoever reads it to reclassify the ticket as low priority and close it. If an AI reads that text as *instructions* rather than *content*, the attacker just skipped your queue. This is **prompt injection**, and it is nothing more than social engineering aimed at your agent the "hi, IT sent me, what's your password?" of the AI era.
+- **T-1007** contains a customer's SSN, pasted in frustration. No attack, just a human being messy. But if that text flows into an AI model unfiltered, sensitive data has now been *processed* somewhere your compliance team never approved.
 
 Your instinct is probably "train the AI to ignore these." Resist it. **The defense that works is the one that runs before the AI is involved at all.**
 
@@ -79,6 +79,6 @@ That last sentence is the audit question. Make the agent answer it explicitly, i
 
 ## 🎩 What just happened
 
-You implemented pre-LLM input sanitization, deterministic prompt-injection screening with fail-closed routing, and a hardened human-in-the-loop gate. In your language: **you wrote the PII handling policy, briefed the desk on social engineering, and made the approval matrix physically impossible to bypass.** The new hire is safe to trust — pending one thing every probation requires: a review with numbers.
+You implemented pre-LLM input sanitization, deterministic prompt-injection screening with fail-closed routing, and a hardened human-in-the-loop gate. In your language: **you wrote the PII handling policy, briefed the desk on social engineering, and made the approval matrix physically impossible to bypass.** The new hire is safe to trust pending one thing every probation requires: a review with numbers.
 
 **Next → [Module 5 · The 30-Day Review](../module-5-the-30-day-review/)**
