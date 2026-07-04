@@ -57,7 +57,7 @@ Your support queue is drowning. Routine tickets bury the real emergencies. So yo
 - 🟢 **Routine tickets** (password resets, billing questions) → auto-routed instantly by *rules, not AI*. Policy is policy, it shouldn't cost an AI call, and it shouldn't be up for negotiation.
 - 🔴 **High-stakes tickets** (enterprise outages, churn threats) → screened for sensitive data, risk-summarized by AI, then **paused for a human decision.** Yours.
 
-The [sample ticket queue](sample-data/tickets.csv) contains a few traps — a customer who pastes their SSN, a "ticket" that tries to talk your agent into misbehaving, and a VIP threatening to walk. Your onboarding plan handles all three. That's the point.
+The [sample ticket queue](sample-data/tickets.csv) contains a few traps a customer who pastes their SSN, a "ticket" that tries to talk your agent into misbehaving, and a VIP threatening to walk. Your onboarding plan handles all three. That's the point.
 
 ---
 
@@ -66,7 +66,7 @@ The [sample ticket queue](sample-data/tickets.csv) contains a few traps — a cu
 1. **You are the manager, not the typist.** Every module gives you plain-English prompts to copy into Antigravity. The agent writes the code, runs the commands, opens the web pages. You review, approve, and decide.
 2. **Never approve what you haven't read.** Your agent produces plans and artifacts before acting. Read them. Approving blind is how bad hires slip through probation, same rule here.
 3. **If the agent stalls, prompt it forward.** Agents sometimes present a plan and wait. Reply "Proceed." You'd nudge a hesitant new hire too.
-4. **Results vary — that's normal.** Agents are not photocopiers. Your file names and outputs may differ slightly from the screenshots. Judge outcomes, not keystrokes. (You'll formalize this instinct in Module 5.)
+4. **Results vary and that's normal.** Agents are not photocopiers. Your file names and outputs may differ slightly from the screenshots. Judge outcomes, not keystrokes. (You'll formalize this instinct in Module 5.)
 
 ---
 
@@ -84,6 +84,6 @@ This workshop adapts and reframes Google's official Antigravity conent and codel
 
 ---
 
-Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** — an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. 
+Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. 
 
-MIT licensed — adapt it for your team.
+MIT licensed, adapt it for your team.
