@@ -61,7 +61,7 @@ You won't set one up today - some MCP servers require API-key steps that break m
 
 ## ✅ Checkpoint
 
-- [ ] You edited the SOP template (at least two real changes)
+- [ ] You edited the SOP template (at least two real changes) -- creating and maintaining SOPs at enterprise level could be an overwhelming responsibility. DM me if you are interested to discuss how to automate the process for your company. 
 - [ ] `.agents/skills/escalation-triage/SKILL.md` exists in your project
 - [ ] The enterprise-outage question used your SOP; the lunch question didn't
 - [ ] You can explain progressive disclosure at your next team meeting without saying "progressive disclosure"
