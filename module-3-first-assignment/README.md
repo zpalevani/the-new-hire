@@ -68,12 +68,18 @@ The workflow triages support tickets with these EXACT rules:
 
 IMPORTANT: the local playground testing tool sends whatever I type as plain
 text, not as a structured object. So the entry node must accept plain text
-input first — either a bare ticket ID (which it looks up from tickets.csv)
-or a full pasted ticket — and convert it into your structured ticket format
-itself. Do not require me to type a pre-structured object into the chat.
+input first — either a bare ticket ID (which it looks up from tickets.csv),
+a full pasted ticket, OR unstructured freeform text that matches neither —
+and convert whatever it gets into your structured ticket format. Freeform
+text that doesn't match a known ticket ID or the full ticket format must
+still be treated as raw ticket description text and passed forward into the
+workflow. Never reject or error out on unparseable input — that is not a
+valid outcome for ticket intake, since a real customer or attacker's
+message will rarely arrive perfectly structured.
 
 Follow my escalation-triage skill for all severity definitions. Show me your
 implementation plan before you write anything.
+
 ```
 
 **Read the plan artifact before approving.** Check it against three questions; the same three you'd ask about any process design doc:
