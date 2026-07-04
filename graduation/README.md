@@ -24,43 +24,43 @@ unpublishing is one click, so the blast radius of experimenting is zero.
 
 ## Build it
 
-1. Open AI Studio → **Build**. Sign in with the same personal Google account.
-2. Paste:
+Open AI Studio → **Build**. Sign in with the same personal Google account.Paste:
 ```
-Build a support escalation triage dashboard for an operations manager, using this EXACT data and vocabulary — do not invent generic metrics,
-terminology, or branding:
-Add a visible banner at the top of the dashboard, styled like a notice, that reads exactly: "DEMO MODE — Sample data only. Not connected to a live agent."
-SEVERITY LEVELS (use these exact labels): P1 (red), P2 (amber), P3 (blue), P4 (gray).
-CUSTOMER TIERS: Free, Pro, Enterprise.
-SECURITY FLAGS (use these two exact flags, nothing invented):
-"SUSPECTED INJECTION" and "PII-REDACTED"
-SAMPLE TICKETS seed the dashboard with these 8, using these exact IDs and details:
+  Build a support escalation triage dashboard for an operations manager, using this EXACT data and vocabulary — do not invent generic metrics,
+  terminology, or branding:
+  Add a visible banner at the top of the dashboard, styled like a notice, that reads exactly: "DEMO MODE, Sample data only. Not connected to a live agent."
+  SEVERITY LEVELS (use these exact labels): P1 (red), P2 (amber), P3 (blue), P4 (gray).
+  CUSTOMER TIERS: Free, Pro, Enterprise.
+  SECURITY FLAGS (use these two exact flags, nothing invented):
+  "SUSPECTED INJECTION" and "PII-REDACTED"
+  SAMPLE TICKETS seed the dashboard with these 8, using these exact IDs and details:
 
-T-1001, Free, P4, password reset, auto-routed
-T-1002, Enterprise, P1, production outage before board meeting, pending approval
-T-1004, Free, flagged SUSPECTED INJECTION, pending approval
-T-1005, Enterprise, P2, cancellation/churn risk, pending approval
-T-1007, Enterprise, flagged PII-REDACTED, pending approval
-T-1003, Pro, P3, billing double-charge, auto-routed
-T-1006, Pro, P4, how-to question, auto-routed
-T-1009, Pro, P3, resolved
+  T-1001, Free, P4, password reset, auto-routed
+  T-1002, Enterprise, P1, production outage before board meeting, pending approval
+  T-1004, Free, flagged SUSPECTED INJECTION, pending approval
+  T-1005, Enterprise, P2, cancellation/churn risk, pending approval
+  T-1007, Enterprise, flagged PII-REDACTED, pending approval
+  T-1003, Pro, P3, billing double-charge, auto-routed
+  T-1006, Pro, P4, how-to question, auto-routed
+  T-1009, Pro, P3, resolved
 
-LAYOUT: three columns exactly "Auto-Routed" (green), "Pending My
-Approval" (amber), "Resolved" (gray). Each ticket card shows: ticket ID,
-customer name, tier badge, severity badge, one-line summary, and only
-on flagged cards a shield icon showing the exact security flag text.
-Pending-approval cards get Approve / Reject buttons that move the card to
-Resolved with a timestamp.
-Header stats, using only real derived numbers from the 8 tickets above:
-count of open P1s, count pending approval, count of security-flagged
-tickets. No invented metrics like "SLA Resolution Ratio" every number
-shown must be directly countable from the 8 tickets.
-Dark, professional styling. No generic dashboard buzzwords no "Live
-Workspace," no version numbers, no "Multi-Dimensional Filter Suite." Plain,
-clear labels only: a search box and a severity filter (All / P1 / P2 / P3
-/ P4) are enough. 
-
+  LAYOUT: three columns exactly "Auto-Routed" (green), "Pending My
+  Approval" (amber), "Resolved" (gray). Each ticket card shows: ticket ID,
+  customer name, tier badge, severity badge, one-line summary, and only
+  on flagged cards a shield icon showing the exact security flag text.
+  Pending-approval cards get Approve / Reject buttons that move the card to
+  Resolved with a timestamp.
+  Header stats, using only real derived numbers from the 8 tickets above:
+  count of open P1s, count pending approval, count of security-flagged
+  tickets. No invented metrics like "SLA Resolution Ratio" every number
+  shown must be directly countable from the 8 tickets.
+  Dark, professional styling. No generic dashboard buzzwords no "Live
+  Workspace," no version numbers, no "Multi-Dimensional Filter Suite." Plain,
+  clear labels only: a search box and a severity filter (All / P1 / P2 / P3
+  / P4) are enough.
 ```
+
+
 
 3. Watch it build, then art-direct in plain English if you want small changes  "make the P1 badge impossible to miss," "add a filter by customer tier."
 
