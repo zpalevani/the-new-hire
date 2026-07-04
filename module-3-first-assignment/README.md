@@ -66,6 +66,12 @@ The workflow triages support tickets with these EXACT rules:
    approve/reject decision before any response is drafted. The human's
    decision is final.
 
+IMPORTANT: the local playground testing tool sends whatever I type as plain
+text, not as a structured object. So the entry node must accept plain text
+input first — either a bare ticket ID (which it looks up from tickets.csv)
+or a full pasted ticket — and convert it into your structured ticket format
+itself. Do not require me to type a pre-structured object into the chat.
+
 Follow my escalation-triage skill for all severity definitions. Show me your
 implementation plan before you write anything.
 ```
@@ -99,6 +105,14 @@ The agent starts a local web page (typically `localhost:8080`) - your triage des
 - **T-1005** (VIP churn threat) → judgment territory. Read the AI's risk summary critically: would *you* have written it better? Note the gap - Module 5 turns that note into a score.
 
 > 🔁 **The coaching loop.** Spot a bad classification? Don't restart - coach. Edit your skill's severity definitions or tell the agent to adjust the classifier instruction, then re-run the same ticket in the playground. Instruction → observation → correction. It's the same loop you run with humans; here it takes ninety seconds.
+
+> 🩹 NOTE **If you see a `ValidationError` mentioning `TicketInput`:** the entry
+> node is expecting a structured object instead of plain typed text. Tell
+> your agent: *"The entry node is rejecting plain text input with a
+> TicketInput validation error — fix it so it accepts a plain ticket ID or
+> pasted ticket text directly."* Then have it **restart the playground
+> server** and open a **New Session** before testing again — code fixes
+> don't apply to a server that's already running.
 
 ## ✅ Checkpoint
 
