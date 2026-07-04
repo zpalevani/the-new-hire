@@ -11,13 +11,13 @@ The fix is a **Skill**: your SOP packaged as a small folder the agent *discovers
 
 > 🧠 **Ops instinct, validated:** nobody re-reads the entire handbook to answer one ticket. They pull the *relevant* SOP, follow it, and put it back. "Progressive disclosure" is engineer-speak for **need-to-know basis.** You invented this.
 
-## 2.2 — Adapt the SOP template
+## 2.2 - Adapt the SOP template
 
 Open [`escalation-triage-skill.md`](escalation-triage-skill.md) in this folder. It's a complete triage SOP written in skill format: severity definitions, routing rules, tone rules, and hard boundaries.
 
 Read it like you'd review any SOP draft - and **edit at least two things** to match how triage actually works in your world (your severity names, your response-time targets, your escalation contacts). An SOP you didn't touch is an SOP you don't own.
 
-## 2.3 — Have your agent install it
+## 2.3 - Have your agent install it
 
 You could create the folders yourself, but you have staff for that. Paste into Antigravity:
 
@@ -36,7 +36,7 @@ Then paste the contents of your edited `escalation-triage-skill.md` when it asks
 
 > 🔑 **The frontmatter is the hook.** The `description:` line at the top is how the agent decides whether a task matches the skill. Write it the way you'd write the *title and scope line* of an SOP - specific enough that the right person grabs it, clear enough that the wrong person doesn't.
 
-## 2.4 — Prove it triggers (and doesn't)
+## 2.4 - Prove it triggers (and doesn't)
 
 Two tests, one purpose:
 
