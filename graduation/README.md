@@ -25,7 +25,8 @@ unpublishing is one click, so the blast radius of experimenting is zero.
 ## Build it
 
 1. Open AI Studio → **Build**. Sign in with the same personal Google account.
-2. Paste: ```
+2. Paste:
+```
 Build a support escalation triage dashboard for an operations manager, using this EXACT data and vocabulary — do not invent generic metrics,
 terminology, or branding:
 Add a visible banner at the top of the dashboard, styled like a notice, that reads exactly: "DEMO MODE — Sample data only. Not connected to a live agent."
