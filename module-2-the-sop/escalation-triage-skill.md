@@ -11,10 +11,10 @@ description: Use this skill whenever classifying, routing, prioritizing, or draf
 
 | Severity | Definition | Response target |
 |---|---|---|
-| **P1 — Critical** | Production down or core workflow blocked for an Enterprise/paying customer; security incident; data loss suspected | [15 min] acknowledgment, immediate human escalation |
-| **P2 — High** | Major feature degraded; deadline-driven urgency (launch, board meeting, audit); explicit churn or cancellation threat | [1 hour] acknowledgment, human review required |
-| **P3 — Normal** | Standard product questions, bugs with workarounds, configuration help | [1 business day] |
-| **P4 — Low** | Password resets, billing questions, feature requests, how-to questions | Auto-route to standard queue |
+| **P1 Critical** | Production down or core workflow blocked for an Enterprise/paying customer; security incident; data loss suspected | [15 min] acknowledgment, immediate human escalation |
+| **P2 High** | Major feature degraded; deadline-driven urgency (launch, board meeting, audit); explicit churn or cancellation threat | [1 hour] acknowledgment, human review required |
+| **P3 Normal** | Standard product questions, bugs with workarounds, configuration help | [1 business day] |
+| **P4 Low** | Password resets, billing questions, feature requests, how-to questions | Auto-route to standard queue |
 
 ## Routing rules
 
