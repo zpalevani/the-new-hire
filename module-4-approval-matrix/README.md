@@ -64,10 +64,10 @@ this style of instruction-in-ticket, and re-run it to confirm.
 Congratulations, you are now doing security testing. Nobody mentioned it would feel like QA-ing a process doc, because that's what it is.
 
 > 🩹 **If pasting a plain-text attack throws `Could not parse or look up ticket from input`:** the entry node (from Module 3's fix) only
-> recognizes a known ticket ID or a fully structured ticket — freeform text that's neither gets rejected before it ever reaches the security
+> recognizes a known ticket ID or a fully structured ticket, freeform text that's neither gets rejected before it ever reaches the security
 > screen. That's a real gap, not just an error message: a genuine attacker's ticket won't arrive neatly structured either. Tell your agent:
 > *"Freeform text that isn't a known ticket ID and doesn't match the full structured format should still be passed to security_screen as raw
-> description text — never rejected outright. Rejecting isn't a valid outcome; everything must route through the screen or fail closed to
+> description text never rejected outright. Rejecting isn't a valid outcome; everything must route through the screen or fail closed to
 > human review."* Restart the server and test in a new session afterward.
 >
 > 🩹 **If a ticket requests sensitive information, a named person's salary, home address, internal contact info, credentials and it gets
