@@ -1,4 +1,4 @@
-# 🧑‍💼 The New Hire
+# The New Hire
 ### Onboard an AI agent the way an ops pro onboards a person.
 
 > **You will never touch a terminal. Your agent has one.**
@@ -11,7 +11,7 @@ Except this new hire is an AI agent. And by the end of five modules, it will be 
 
 ---
 
-## 💡 The big idea
+## 💡 The idea
 
 Everyone tells ops people to "learn prompting." That's backwards.
 
@@ -72,10 +72,7 @@ The [sample ticket queue](sample-data/tickets.csv) contains a few traps — a cu
 
 ## 🙏 Grounded in
 
-This workshop adapts and reframes Google's official codelabs for an operations audience:
-[Getting Started with Google Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity) · [Authoring Antigravity Skills](https://codelabs.developers.google.com/getting-started-with-antigravity-skills) · [Vibe Coding AI Agents with Agents CLI & ADK 2.0](https://codelabs.developers.google.com/agents-cli-adk-lifecycle) · [Vibecode an ADK 2.0 Ambient Agent](https://codelabs.developers.google.com/vibecode-ambient-expense-agent) · [Vibecode & Secure an AI Agent Lifecycle](https://codelabs.developers.google.com/secure-agentic-coding) · [Google Developer Knowledge MCP](https://codelabs.developers.google.com/developer-knowledge-mcp-antigravity) · [Deploy from AI Studio to Cloud Run](https://codelabs.developers.google.com/deploy-from-aistudio-to-run)
-
-Those labs are written for developers. This workshop is the same architecture, translated into the language ops people already speak.
+This workshop adapts and reframes Google's official Antigravity conent and codelabs for an operations audience. Unlike those labs that are written for developers, this workshop is the same architecture, translated into the language ops people already speak.
 
 ---
 
@@ -83,8 +80,10 @@ Those labs are written for developers. This workshop is the same architecture, t
 
 **[Module 0 · Setup →](00-setup/)**
 
-*Hats off optional, but expected.* 🎩
+*Hats off optional, but expected.* 🎩 :-) 
 
 ---
 
-Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** — an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. MIT licensed — adapt it for your team.
+Created by **[Zara Palevani](https://www.linkedin.com/in/zara-palevani/)** — an operations leader who believes the real discipline in AI was never prompting. It's guardrails, context, and validation, and ops people have been the professionals of that discipline all along. 
+
+MIT licensed — adapt it for your team.
