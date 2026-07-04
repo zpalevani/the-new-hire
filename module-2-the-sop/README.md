@@ -68,6 +68,6 @@ You won't set one up today - some MCP servers require API-key steps that break m
 
 ## 🎩 What just happened
 
-You authored an Agent Skill with discoverable frontmatter and verified selective activation. Or, in your language: **you wrote the SOP, filed it where the new hire can find it, and confirmed they use it when — and only when — it applies.**
+You authored an Agent Skill with discoverable frontmatter and verified selective activation. Or, in Ops language: **you wrote the SOP, filed it where the new hire can find it, and confirmed they use it when and only when it applies.**
 
 **Next → [Module 3 · First Assignment](../module-3-first-assignment/)**
