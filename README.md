@@ -3,7 +3,7 @@
 
 > **You will never touch a terminal. Your agent has one.**
 
-This is a self-paced workshop for **operations people** — customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
+This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
 
 You're going to do the one thing you already do better than any engineer: **onboard a new team member.**
 
