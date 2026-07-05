@@ -84,4 +84,4 @@ Step back and look at the whole onboarding: access levels and audit trails (M1),
 
 Welcome to the part of AI where you were always going to end up in charge.
 
-**Victory lap → [🎓 Graduation: You Did It!!!! Congrats!](../graduation/)**
+** [Graduation: You Did It!!!! Congrats!](../graduation/)**
