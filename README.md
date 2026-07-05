@@ -1,7 +1,7 @@
 # The New Hire
 ### Onboard an AI agent the way an ops pro onboards a person.
 
-> **You will never touch a terminal. Your agent has one.**
+> **You stay in the manager's seat. Your agent operates the terminal while you review and approve.**
 
 This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
 
