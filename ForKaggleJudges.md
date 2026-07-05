@@ -19,7 +19,7 @@ This repository is two things at once:
 
 ## Quick links
 
-- 📝 **Kaggle Writeup:** WRITEUP_LINK_HERE
+- 📝 **Kaggle Writeup:** [`Write Up`](https://www.kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/the-new-hire-an-ai-support-triage-agent-onboarded)
 - 🧪 **Eval rubric:** [`qa-scorecard.md`](module-5-the-30-day-review/qa-scorecard.md)
 - 🎫 **Sample ticket queue with embedded attacks:** [`sample-data/tickets.csv`](sample-data/tickets.csv)
 
