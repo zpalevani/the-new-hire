@@ -28,13 +28,14 @@ Accept the terms, make your own call on the data-sharing opt-in, and land on the
 
 ## Step 3 - Create the workspace
 
-On your Desktop (or wherever you keep work), create a normal folder called:
+In your Antigravity account, under "projects", create a normal folder called:
 
 ```
 triage-desk
 ```
 
-Right-click → New Folder. That's the extent of your technical setup. This folder is your new hire's desk - everything they build lives here, where you can see it.
+<img width="358" height="402" alt="image" src="https://github.com/user-attachments/assets/2743ca6a-85a1-4c0b-ba09-65b68c456947" />
+
 
 ## ✅ Checkpoint
 
