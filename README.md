@@ -19,7 +19,7 @@ You will create:
 
 This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
 
-You're going to apply a discipline operations leaders already know well: ** onboarding a new team memeber.**
+You're going to apply a discipline operations leaders already know well: onboarding a new team memeber.
 
 Except this new hire is an AI agent. And by the end of five modules, it will be running **support escalation triage** with an SOP it follows, a human approval gate designed so P1/P2 responses cannot be drafted without recorded approval, and a QA scorecard with evidence. Consider this your Proof of Concept (POC) to start conversations with your team about moving toward an MVP and eventually a production version.
 ---
