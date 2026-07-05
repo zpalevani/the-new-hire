@@ -93,6 +93,12 @@ This workshop adapts and reframes Google's official Antigravity conent and codel
 
 ---
 
+## Architecture 
+The following is a snapshot of what you will be building. 
+
+<img width="1600" height="900" alt="architecture-cover" src="https://github.com/user-attachments/assets/dcde1bad-e5f5-4c73-ac1b-0c73bb410ac7" />
+
+
 ## ▶️ Start here
 
 **[Module 0 · Setup →](00-setup/)**
