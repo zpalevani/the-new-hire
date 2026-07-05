@@ -19,9 +19,7 @@ This repository is two things at once:
 
 ## Quick links
 
-- 🎬 **Video demo (5 min):** VIDEO_LINK_HERE
 - 📝 **Kaggle Writeup:** WRITEUP_LINK_HERE
-- 🖥️ **Live demo dashboard (demo mode):** DASHBOARD_URL_HERE
 - 🧪 **Eval rubric:** [`qa-scorecard.md`](module-5-the-30-day-review/qa-scorecard.md)
 - 🎫 **Sample ticket queue with embedded attacks:** [`sample-data/tickets.csv`](sample-data/tickets.csv)
 
