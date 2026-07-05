@@ -1,11 +1,25 @@
 # The New Hire
 ### Onboard an AI agent the way an ops pro onboards a person.
 
+## What this repo contains
+
+This repository is a complete self-paced workshop that guides non-technical operations professionals through building a local AI support-triage agent.
+
+You will create:
+
+- A support escalation SOP packaged as an agent Skill
+- A working local triage workflow
+- Deterministic routing rules for routine tickets
+- Human approval gates for high-risk tickets
+- PII redaction and prompt-injection screening
+- A QA scorecard and probation-review artifact
+- An optional mock dashboard for stakeholder storytelling
+
 > **You stay in the manager's seat. Your agent operates the terminal while you review and approve.**
 
 This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
 
-You're going to do the one thing you already do better than any engineer: **onboard a new team member.**
+You're going to apply a discipline operations leaders already know well: onboarding a new team memeber.**
 
 Except this new hire is an AI agent. And by the end of five modules, it will be running **support escalation triage** for you with an SOP it actually follows, an approval matrix it can't bypass, and a QA scorecard that proves it. Consider this your Proof of Concept (POC) to start the conversations with your team to proceed with an MVP and evntually production version. 
 
