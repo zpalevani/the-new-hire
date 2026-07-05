@@ -1,7 +1,14 @@
-# triage-desk-agent
+# Triage Desk Agent
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `1.0.0`
+Reference implementation for **The New Hire** Kaggle AI Agents capstone.
+
+This is an ADK 2.0 workflow agent for support escalation triage. It demonstrates:
+
+- deterministic pre-check routing for routine tickets
+- pre-LLM security screening for PII, prompt injection, and sensitive-data requests
+- AI-based severity classification and risk summarization
+- human-in-the-loop approval for P1/P2 or suspicious tickets
+- response drafting only after explicit approval
 
 ## Project Structure
 
