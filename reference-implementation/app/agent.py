@@ -194,7 +194,11 @@ def security_screen(node_input: Any) -> Event:
         # 3. Try matching as plain ticket ID (T-XXXX)
         if not ticket and text.startswith("T-") and len(text) <= 8 and " " not in text:
             ticket_id = text
-            csv_path = "c:/Users/zpale/Desktop/triage-desk/tickets.csv"
+           csv_path = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+    "sample-data",
+    "tickets.csv",
+)
             try:
                 with open(csv_path, "r", encoding="utf-8") as f:
                     reader = csv.DictReader(f)
