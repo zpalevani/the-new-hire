@@ -1,5 +1,5 @@
 # 🎓 Graduation · The Victory Lap!
-### ⏱️ ~30 minutes · Ship a demo triage dashboard from your browser. Still no terminal.
+### ⏱️ ~30 minutes · Ship a demo triage dashboard from your browser. No terminal operated by you.
 
 Your triage desk runs on your machine. For the victory lap, you'll put a face on it, a shareable web dashboard, built by describing it and deployed with a
 button. This one doesn't even need Antigravity: it's pure browser.
@@ -86,11 +86,11 @@ If you want to build that for your team, **DM me on LinkedIn**
 Five modules ago you had a queue problem and a suspicion that AI was for engineers. Now you have:
 
 - A triage agent that follows **your** SOP
-- An approval matrix it **cannot** bypass
+- A human approval gate designed so P1/P2 responses cannot be drafted without recorded approval
 - A security screen that caught a con and protected a customer's data
 - A QA scorecard with evidence, and a probation review you'd show your VP
 - A demo dashboard, clearly labeled, that shows the vision
 
-And a terminal you never opened. 🎩
+And a terminal you never had to operate yourself. 🎩
 
 *If this workshop earned a hat-tip, star the repo and send it to the ops person who still thinks AI is someone else's job.* Thank you!
