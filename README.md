@@ -17,7 +17,7 @@ You will create:
 
 > **You stay in the manager's seat. Your agent operates the terminal while you review and approve.**
 
-This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding. No command line. No computer science degree.
+This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding by hand. No command line operated by you. No computer science degree.
 
 You're going to apply a discipline operations leaders already know well: onboarding a new team memeber.
 
