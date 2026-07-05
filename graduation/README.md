@@ -22,6 +22,8 @@ out of scope for a free, zero-terminal, five-module workshop. That doesn't make 
 puts it on Google Cloud Run. If you're on the free Starter Tier you can keep up to two apps deployed in a region **without a billing account** and
 unpublishing is one click, so the blast radius of experimenting is zero.
 
+Note: At the time of writing, AI Studio Build may allow lightweight published demos without billing in supported regions. Check the current Google terms before publishing.
+
 ## Build it
 
 Open AI Studio → **Build**. Sign in with the same personal Google account.Paste:
