@@ -1,4 +1,4 @@
-# 🎓 Graduation · The Victory Lap
+# 🎓 Graduation · The Victory Lap!
 ### ⏱️ ~30 minutes · Ship a demo triage dashboard from your browser. Still no terminal.
 
 Your triage desk runs on your machine. For the victory lap, you'll put a face on it, a shareable web dashboard, built by describing it and deployed with a
