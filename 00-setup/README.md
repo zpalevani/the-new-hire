@@ -47,4 +47,4 @@ triage-desk
 
 Nothing fancy - but notice what you *didn't* do. No SDKs, no package managers, no environment variables. The entire developer-tooling layer is your agent's problem now. That division of labor is the whole workshop.
 
-**Next → [Module 1 · Orientation](../module-1-orientation/)**
+**Next → [Module 1 · Orientation](../01-module-1-orientation/)**
