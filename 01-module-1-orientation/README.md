@@ -73,4 +73,4 @@ Download [`tickets.csv`](../sample-data/tickets.csv) from this repo into your `t
 
 You ran a first day: introductions, ground rules, access level, one supervised task with a deliverable you reviewed. In agent-speak you configured *permission modes*, exercised the *artifact* system, and completed your first supervised agent run. In ops-speak: **you onboarded.**
 
-**Next → [Module 2 · The SOP](../module-2-the-sop/)**
+**Next → [Module 2 · The SOP](../02-module-2-the-sop/)**
