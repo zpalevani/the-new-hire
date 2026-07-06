@@ -131,4 +131,4 @@ The agent starts a local web page (typically `localhost:8080`) - your triage des
 
 You scaffolded an ADK 2.0 graph workflow with deterministic routing nodes, an LLM classifier with structured output, and a human-in-the-loop pause without typing a line of code or opening a terminal. In your language: **you designed a triage process, staffed it, set the approval threshold, and personally worked the approval queue on day one.** The approval gate is real, but it's still naive - Module 4 hardens it against the traps waiting in that CSV.
 
-**Next → [Module 4 · The Approval Matrix](../module-4-approval-matrix/)**
+**Next → [Module 4 · The Approval Matrix](../04-module-4-approval-matrix/)**
