@@ -108,4 +108,4 @@ That last sentence is the audit question. Make the agent answer it explicitly, i
 
 You implemented pre-LLM input sanitization, deterministic prompt-injection screening with fail-closed routing, and a hardened human-in-the-loop gate. In your language: **you wrote the PII handling policy, briefed the desk on social engineering, and made the approval matrix physically impossible to bypass.** The new hire is safe to trust pending one thing every probation requires: a review with numbers.
 
-**Next → [Module 5 · The 30-Day Review](../module-5-the-30-day-review/)**
+**Next → [Module 5 · The 30-Day Review](../05-module-5-the-30-day-review/)**
