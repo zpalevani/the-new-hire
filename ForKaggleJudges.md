@@ -15,7 +15,7 @@ This repository is two things at once:
 | **Antigravity** | Request-review workflow in [Module 1](01-module-1-orientation/) |
 | **Security features** | Code: security screen in [`reference-implementation/`](reference-implementation/) · Design + red-teaming: [Module 4](04-module-4-approval-matrix/) · Also shown in video |
 | **Agent Skills / Agents CLI** | Skill with discoverable frontmatter: [`escalation-triage-skill.md`](02-module-2-the-sop.md) · agents-cli scaffolding: [Module 3](module-3-first-assignment/) |
-| **Deployability** | Cloud Run dashboard via AI Studio Build: [Graduation](06-graduation/) · Shown live in video |
+| **Deployability** | Cloud Run dashboard via AI Studio Build: [Graduation](06-graduation/) |
 
 ## Quick links
 
