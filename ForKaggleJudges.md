@@ -25,7 +25,7 @@ This repository is two things at once:
 
 ## To reproduce
 
-Follow [Module 0](00-setup/) through [Module 5](module-5-the-30-day-review/) in order (~5 hours, $0, no terminal operated by you). Or run the reference implementation directly: see [`reference-implementation/README.md`](reference-implementation/README.md).
+Follow [Module 0](00-setup/) through [Module 5](05-module-5-the-30-day-review/) in order (~5 hours, $0, no terminal operated by you). Or run the reference implementation directly: see [`reference-implementation/README.md`](reference-implementation/README.md).
 
 **Design principle in one line:** policy lives in code, judgment lives in AI, and no P1/P2 response is ever drafted without a recorded human approval.
 
