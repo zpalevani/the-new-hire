@@ -11,11 +11,11 @@ This repository is two things at once:
 
 | Concept | Location |
 |---|---|
-| **Agent system (ADK 2.0)** | Code: [`reference-implementation/`](reference-implementation/) · Build process: [Module 3](module-3-first-assignment/) |
+| **Agent system (ADK 2.0)** | Code: [`reference-implementation/`](reference-implementation/) · Build process: [Module 3](03-module-3-first-assignment/) |
 | **Antigravity** | Request-review workflow in [Module 1](module-1-orientation/) |
-| **Security features** | Code: security screen in [`reference-implementation/`](reference-implementation/) · Design + red-teaming: [Module 4](module-4-approval-matrix/) · Also shown in video |
-| **Agent Skills / Agents CLI** | Skill with discoverable frontmatter: [`escalation-triage-skill.md`](module-2-the-sop/escalation-triage-skill.md) · agents-cli scaffolding: [Module 3.1](module-3-first-assignment/) |
-| **Deployability** | Cloud Run dashboard via AI Studio Build: [Graduation](graduation/) · Shown live in video |
+| **Security features** | Code: security screen in [`reference-implementation/`](reference-implementation/) · Design + red-teaming: [Module 4](04-module-4-approval-matrix/) · Also shown in video |
+| **Agent Skills / Agents CLI** | Skill with discoverable frontmatter: [`escalation-triage-skill.md`](02-module-2-the-sop/escalation-triage-skill.md) · agents-cli scaffolding: [Module 3.1](module-3-first-assignment/) |
+| **Deployability** | Cloud Run dashboard via AI Studio Build: [Graduation](06-graduation/) · Shown live in video |
 
 ## Quick links
 
