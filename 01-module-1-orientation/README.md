@@ -41,10 +41,10 @@ Open **Settings** and find the agent permission / review controls. You'll see a 
 
 | Mode | Ops translation | When to use |
 |---|---|---|
-| **Request review** (default) | New hire on probation - checks in before anything consequential | ✅ This whole workshop |
-| Sandboxed auto-run | Contractor with a test environment - free rein, but in an isolated container that can't touch production | Later, when trust is earned |
-| Read-only | Auditor badge - can look, cannot touch | Investigations, sensitive systems |
-| Full auto ("turbo") | Tenured admin | ❌ Not during onboarding. Would you? |
+| **Default: Request review** | New hire on probation - checks in before anything consequential | ✅ This whole workshop |
+| Full Machine | Has keys to every filing cabinet, can open anything in the building | Later, when trust is earned |
+| Turbo Mode | Tenured product manager | ❌ Not during onboarding. Would you? |
+| Custom | You write the job description, pick exactly which permissions this role gets, setting by setting | When neither probation nor full trust fits e.g., loosen file access but keep command review |
 
 **Leave it on request-review.** Velocity is what you trade for safety, and during probation you don't trade it.
 
