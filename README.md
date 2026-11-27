@@ -19,7 +19,7 @@ You will create:
 
 This is a self-paced workshop for **operations people**, customer success, support ops, sales ops, biz ops. No coding by hand. No command line operated by you. No computer science degree.
 
-You're going to apply a discipline operations leaders already know well: onboarding a new team memeber.
+You're going to apply a discipline operations leaders already know well: onboarding a new team member.
 
 Except this new hire is an AI agent. And by the end of five modules, it will be running support escalation triage with an SOP it follows, a human approval gate designed so P1/P2 responses cannot be drafted without recorded approval, and a QA scorecard with evidence. Consider this your Proof of Concept (POC) to start conversations with your team about moving toward an MVP and eventually a production version.
 
@@ -41,7 +41,7 @@ This workshop doesn't teach you a new discipline. It shows you that AI agents ru
 | Demand an audit trail | **Artifacts** |
 | Keep a source-of-truth binder | **Grounding (MCP)** |
 
-*(Full translation table in [GLOSSARY.md](GLOSSARY.md) ookmark it, it's your Rosetta Stone.)*
+*(Full translation table in [GLOSSARY.md](GLOSSARY.md) — bookmark it, it's your Rosetta Stone.)*
 
 ---
 
@@ -52,12 +52,12 @@ Treat your agent like a promising junior hire. Same playbook you'd use for a hum
 | Module | Onboarding stage | You will... | Time |
 |---|---|---|---|
 | [**0 · Setup**](00-setup/) | Paperwork | Install Antigravity, sign in, zero terminal | 20 min |
-| [**1 · Orientation**](module-1-orientation/) | Day one tour | Meet your agent, learn how it shows its work, set its access level | 45 min |
-| [**2 · The SOP**](module-2-the-sop/) | Handbook day | Turn your real escalation SOP into a Skill the agent loads on demand | 45 min |
-| [**3 · First Assignment**](module-3-first-assignment/) | Real work begins | Direct the agent to build a triage desk; rules in code, judgment in AI | 90 min |
-| [**4 · The Approval Matrix**](module-4-approval-matrix/) | Setting limits | Add PII redaction, an injection tripwire, and a human approval gate | 60 min |
-| [**5 · The 30-Day Review**](module-5-the-30-day-review/) | Performance review | Grade your agent with a QA scorecard. Keep it, coach it, or fire it | 60 min |
-| [🎓 **Graduation**](graduation/) | Stretch goal | Publish a live triage dashboard from your browser,  still no terminal | 30 min |
+| [**1 · Orientation**](01-module-1-orientation/) | Day one tour | Meet your agent, learn how it shows its work, set its access level | 45 min |
+| [**2 · The SOP**](02-module-2-the-sop/) | Handbook day | Turn your real escalation SOP into a Skill the agent loads on demand | 45 min |
+| [**3 · First Assignment**](03-module-3-first-assignment/) | Real work begins | Direct the agent to build a triage desk; rules in code, judgment in AI | 90 min |
+| [**4 · The Approval Matrix**](04-module-4-approval-matrix/) | Setting limits | Add PII redaction, an injection tripwire, and a human approval gate | 60 min |
+| [**5 · The 30-Day Review**](05-module-5-the-30-day-review/) | Performance review | Grade your agent with a QA scorecard. Keep it, coach it, or fire it | 60 min |
+| [🎓 **Graduation**](06-graduation/) | Stretch goal | Publish a live triage dashboard from your browser,  still no terminal | 30 min |
 
 **Total: ~5 hours, self-paced.** Do a module per lunch break. Everything runs on a free personal Google account; no billing, no credit card, until the optional graduation stretch.
 
@@ -89,7 +89,7 @@ exactly what you'll be doing for as long as you run this desk.
 
 ## 🙏 Grounded in
 
-This workshop adapts and reframes Google's official Antigravity conent and codelabs for an operations audience. Unlike those labs that are written for developers, this workshop is the same architecture, translated into the language ops people already speak.
+This workshop adapts and reframes Google's official Antigravity content and codelabs for an operations audience. Unlike those labs that are written for developers, this workshop is the same architecture, translated into the language ops people already speak.
 
 ---
 
